@@ -22,11 +22,17 @@
         
         
           <h2>Thing being tested</h2>
-        How does the widget below look?
+Does it track?
         
-<script type="text/javascript">var loc = "https://analytics.clickdimensions.com/cushingcocom-ao8q5/pages/";</script>
-<script type="text/javascript" src="https://az124611.vo.msecnd.net/web/v10/CDWidget.js"></script>
-<div pageID="w662uvlgeeaa8cq0a6xlfa"></div>
+        <script type="text/javascript" src="https://analytics.clickdimensions.com/ts.js" > </script>
+    <script type="text/javascript">
+        var cdAnalytics = new clickdimensions.Analytics('analytics.clickdimensions.com');
+        cdAnalytics.setAccountKey('acifU4Yo920qDDcSp8lXYJ');
+        cdAnalytics.setDomain('github.com');
+        cdAnalytics.setScore(typeof (cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore));
+        cdAnalytics.trackPage();
+    </script> 
+
         
 <section id="downloads" class="clearfix">
           <a href="https://github.com/LoriBeth-Blair/Tests/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
