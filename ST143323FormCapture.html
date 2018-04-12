@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>ST143323 Testing CA Notify User Action</title>
+   </head>
+
+   <body>
+      <form action="https://analytics.clickdimensions.com/forms/h/aLk4TV2MDhkuyyYmmUTLML" method="post">
+         <p>First name 
+         <p><input type="text" name="FirstName" value ="" maxlength="100" />
+         <br />
+         <p>Email 
+         <p><input type="text" name="Email" value ="" maxlength= "100" />
+         <input type = "submit" value ="Test" />
+      </form>
+   </body>
+<script type="text/javascript" src="https://analytics.clickdimensions.com/ts.js" > </script> 
+
+<script type="text/javascript"> 
+  var cdAnalytics = new clickdimensions.Analytics('analytics.clickdimensions.com'); 
+  cdAnalytics.setAccountKey('aSVMoO1Dyg004xubvyloUA'); 
+  cdAnalytics.setDomain('github.io'); 
+  cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore)); 
+  cdAnalytics.trackPage(); 
+</script> 
+
+</html>
